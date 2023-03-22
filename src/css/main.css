@@ -34,6 +34,8 @@ nav {
     align-items: center;
     /* justify-content: center; */
     justify-items: center;
+    margin-inline: auto;
+    max-width: 1100px;
 }
 
 nav a {
