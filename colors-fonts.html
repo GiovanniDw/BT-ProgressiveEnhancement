@@ -2,83 +2,85 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./src/css/main.css" />
-    <link rel="stylesheet" href="./src/css/colors-fonts.css" />
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="./src/css/main.css"/>
+    <link rel="stylesheet" href="./src/css/colors-fonts.css"/>
     <title>Cookies & LocalStorage</title>
 </head>
 
 <body>
-    <nav>
-        <ul>  
-          <li><a href="./index.html">Progressive Enhancement</a></li>
-          <li><a href="./muisafbeeldingen.html">afbeeldingen & muis trackpad</a></li>
-          <li class="active"><a href="./colors-fonts.html">kleuren & fonts</a></li>
-          <li><a href="./javascript-breedband.html">javascript & breedband</a></li>
-          <li><a href='./cookies-localstorage.html'>cookies & localstorage</a></li>
-        </ul>
-      </nav>
-    <section>
-        <h2>Kleuren uitzetten en kleurenblindheid</h2>
-        <p>
-            Er zijn bepaalde kleuren die mogelijk niet correct worden weergegeven in
-            bepaalde browsers. Sommige oudere browsers herkennen mogelijk bepaalde
-            CSS-benoemde kleuren niet, zoals "aliceblue", "cornsilk", "darkkhaki" en
-            "palevioletred". Deze kleuren kunnen in plaats daarvan verschijnen als zwart
-            of een andere standaardkleur.
-        </p>
-        <p>
-            Transparantie: Sommige oudere browsers ondersteunen de eigenschap opacity in
-            CSS niet. In deze gevallen kunnen transparante kleuren in plaats daarvan als effen kleuren verschijnen.
-            Niet-standaard kleurwaarden: sommige browsers herkennen mogelijk niet-standaard
-            kleurwaarden, zoals die gespecificeerd in HSL- of HSLA-indeling. In deze gevallen
-            wordt de kleur mogelijk niet correct weergegeven of wordt deze helemaal genegeerd.
-        </p>
-        <p>
-            Om problemen met kleurweergave in verschillende browsers te voorkomen, kunt je het
-            beste vasthouden aan een standaardset CSS-kleuren en -eigenschappen die breed worden
-            ondersteund. U kunt ook tools zoals CanIUse.com gebruiken om te controleren welke
-            functies in verschillende browsers worden ondersteund.
-        </p>
-        <p>
-            De voorkeuren-contrast CSS-functie is handig voor kleurenblinde mensen omdat het
-            webontwikkelaars in staat stelt een minimumniveau van contrast. Dit is belangrijk omdat 
-            mensen met kleurenblindheid, moeite kunnen hebben om onderscheid te maken tussen bepaalde 
-            kleuren en tinten. Als de tekst van een website bijvoorbeeld lichtgrijs is op een witte 
-            achtergrond, kan het voor iemand met kleurenblindheid moeilijk zijn om te lezen. Als de 
-            website een minimaal contrastniveau specificeert met behulp van prefers-contrast in css, 
-            wordt de tekst weergegeven in een donkerdere grijstint die een beter contrast biedt tegen 
-            de witte achtergrond.
-        </p>
-    </section>
+<nav>
+    <ul>
+        <li><a href="./index.html">Progressive Enhancement</a></li>
+        <li><a href="./muisafbeeldingen.html">afbeeldingen & muis trackpad</a></li>
+        <li class="active"><a href="./colors-fonts.html">kleuren & fonts</a></li>
+        <li><a href="./javascript-breedband.html">javascript & breedband</a></li>
+        <li><a href='./cookies-localstorage.html'>cookies & localstorage</a></li>
+        <li><a href='./sections-en-html.html'>sections & html</a></li>
 
-    <section>
-        <h2>Custom fonts uitzetten</h2>
-        <p>
-            Als je het aangepaste lettertypen in uw browser uitschakelt, geeft je browser de
-            inhoud van de website weer met de standaardlettertypen die zijn opgegeven in de
-            browser instellingen. Deze standaardlettertypen worden doorgaans gekozen door de
-            fabrikant van de browser en zijn mogelijk niet hetzelfde als het aangepaste lettertype
-            dat door de ontwerper van de website is gekozen.
-        </p>
-        <p>
-            Het uitschakelen van aangepaste lettertypen kan nodig zijn als de website een lettertype
-            gebruikt dat moeilijk te lezen is of als het lettertype niet correct wordt geladen en
-            weergave problemen veroorzaakt. Het uitschakelen van aangepaste lettertypen kan echter
-            ook van invloed zijn op het visuele ontwerp van de website en kan ervoor zorgen dat deze
-            er minder gepolijst of professioneel uitziet.
-        </p>
-        <p>
-            Je zet deze uit door de font face uit te zetten en de standaard fonts te gebruiken.
-            Het is een goede gewoonte om fallback font te bieden voor het geval het aangepaste lettertype niet wordt
-            ondersteund door de browser van een gebruiker. Dit zorgt ervoor dat de inhoud van uw website leesbaar
-            blijft, zelfs als het aangepaste lettertype niet laadt.
-            Door best practices voor fonts te volgen, kun je ervoor zorgen dat uw website er goed uitziet en
-            toegankelijk is voor alle gebruikers.
-        </p>
-    </section>
+    </ul>
+</nav>
+<section>
+    <h2>Kleuren uitzetten en kleurenblindheid</h2>
+    <p>
+        Er zijn bepaalde kleuren die mogelijk niet correct worden weergegeven in
+        bepaalde browsers. Sommige oudere browsers herkennen mogelijk bepaalde
+        CSS-benoemde kleuren niet, zoals "aliceblue", "cornsilk", "darkkhaki" en
+        "palevioletred". Deze kleuren kunnen in plaats daarvan verschijnen als zwart
+        of een andere standaardkleur.
+    </p>
+    <p>
+        Transparantie: Sommige oudere browsers ondersteunen de eigenschap opacity in
+        CSS niet. In deze gevallen kunnen transparante kleuren in plaats daarvan als effen kleuren verschijnen.
+        Niet-standaard kleurwaarden: sommige browsers herkennen mogelijk niet-standaard
+        kleurwaarden, zoals die gespecificeerd in HSL- of HSLA-indeling. In deze gevallen
+        wordt de kleur mogelijk niet correct weergegeven of wordt deze helemaal genegeerd.
+    </p>
+    <p>
+        Om problemen met kleurweergave in verschillende browsers te voorkomen, kunt je het
+        beste vasthouden aan een standaardset CSS-kleuren en -eigenschappen die breed worden
+        ondersteund. U kunt ook tools zoals CanIUse.com gebruiken om te controleren welke
+        functies in verschillende browsers worden ondersteund.
+    </p>
+    <p>
+        De voorkeuren-contrast CSS-functie is handig voor kleurenblinde mensen omdat het
+        webontwikkelaars in staat stelt een minimumniveau van contrast. Dit is belangrijk omdat
+        mensen met kleurenblindheid, moeite kunnen hebben om onderscheid te maken tussen bepaalde
+        kleuren en tinten. Als de tekst van een website bijvoorbeeld lichtgrijs is op een witte
+        achtergrond, kan het voor iemand met kleurenblindheid moeilijk zijn om te lezen. Als de
+        website een minimaal contrastniveau specificeert met behulp van prefers-contrast in css,
+        wordt de tekst weergegeven in een donkerdere grijstint die een beter contrast biedt tegen
+        de witte achtergrond.
+    </p>
+</section>
+
+<section>
+    <h2>Custom fonts uitzetten</h2>
+    <p>
+        Als je het aangepaste lettertypen in uw browser uitschakelt, geeft je browser de
+        inhoud van de website weer met de standaardlettertypen die zijn opgegeven in de
+        browser instellingen. Deze standaardlettertypen worden doorgaans gekozen door de
+        fabrikant van de browser en zijn mogelijk niet hetzelfde als het aangepaste lettertype
+        dat door de ontwerper van de website is gekozen.
+    </p>
+    <p>
+        Het uitschakelen van aangepaste lettertypen kan nodig zijn als de website een lettertype
+        gebruikt dat moeilijk te lezen is of als het lettertype niet correct wordt geladen en
+        weergave problemen veroorzaakt. Het uitschakelen van aangepaste lettertypen kan echter
+        ook van invloed zijn op het visuele ontwerp van de website en kan ervoor zorgen dat deze
+        er minder gepolijst of professioneel uitziet.
+    </p>
+    <p>
+        Je zet deze uit door de font face uit te zetten en de standaard fonts te gebruiken.
+        Het is een goede gewoonte om fallback font te bieden voor het geval het aangepaste lettertype niet wordt
+        ondersteund door de browser van een gebruiker. Dit zorgt ervoor dat de inhoud van uw website leesbaar
+        blijft, zelfs als het aangepaste lettertype niet laadt.
+        Door best practices voor fonts te volgen, kun je ervoor zorgen dat uw website er goed uitziet en
+        toegankelijk is voor alle gebruikers.
+    </p>
+</section>
 </body>
 
 </html>
