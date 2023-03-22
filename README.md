@@ -1,2 +1,2 @@
-# BT-ProgressiveEnhancement
+# Browser Techologies - ProgressiveEnhancement
 Browser Technologies - Progressive Enhancement 
