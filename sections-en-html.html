@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel='stylesheet' href='./src/css/main.css'>
+    <title>Document</title>
+</head>
+<body>
+<nav>
+    <ul>
+        <li><a href="./index.html">Progressive Enhancement</a></li>
+        <li><a href="./muisafbeeldingen.html">afbeeldingen & muis trackpad</a></li>
+        <li><a href="./colors-fonts.html">kleuren & fonts</a></li>
+        <li><a href="./javascript-breedband.html">javascript & breedband</a></li>
+        <li><a href='./cookies-localstorage.html'>cookies & localstorage</a></li>
+        <li class="active"><a href='./sections-en-html.html'>sections & html</a></li>
+    </ul>
+</nav>
+<section>
+    <h2>Progressive enhancement is een manier om websites te maken die werken voor iedereen,</h2>
+    <p>ongeacht hun apparaat of
+        browser. Dit betekent dat je begint met een basisversie van de website die werkt voor alle gebruikers, zelfs als
+        ze
+        een oude browser hebben of als JavaScript is uitgeschakeld. Dan kun je extra dingen toevoegen voor gebruikers
+        die
+        een modernere browser of apparaat hebben, zodat ze een betere gebruikerservaring hebben.</p>
+
+    <p>
+        Een belangrijk onderdeel van progressive enhancement is het gebruik van semantische HTML. Dit betekent dat je de
+        verschillende onderdelen van de website in de juiste HTML-tags plaatst, zoals &lt;header&gt;,
+        &lt;nav&gt;,
+        &lt;main&gt;,
+        &lt;section&gt;,
+        &lt;article&gt;,
+        &lt;aside&gt;, en
+        &lt;footer&gt;.
+        Dit helpt de website om betekenisvol te zijn, zelfs zonder stijlen of JavaScript.
+        Het betekent ook dat gebruikers die een oude browser hebben of als JavaScript is
+        uitgeschakeld, de inhoud van de website nog steeds kunnen begrijpen.
+        Begin met een duidelijke structuur van de pagina.
+    </p>
+    <p>Voordat je begint met het implementeren van progressive enhancement, moet je ervoor
+        zorgen dat de structuur van de
+        pagina duidelijk is en dat de inhoud in semantische HTML-elementen staat. Dit betekent
+        dat je de inhoud van je
+        website moet verdelen in logische secties en deze moet plaatsen in bijpassende
+        HTML-elementen.</p>
+
+    <h3>Hier een voorbeeld</h3>
+    <!--    dit gebruikt voor het converten https://www.online-toolz.com/tools/text-html-entities-convertor.php-->
+    <pre>
+   <code>
+    &lt;body&gt;
+    &lt;header&gt;
+    &lt;h1&gt;Website Header&lt;/h1&gt;
+    &lt;nav&gt;
+    &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Over&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;/nav&gt;
+    &lt;/header&gt;
+    &lt;main&gt;
+    &lt;section&gt;
+    &lt;h2&gt;Deel 1&lt;/h2&gt;
+    &lt;p&gt;Inhoud voor deel 1 komt hier.&lt;/p&gt;
+    &lt;/section&gt;
+    &lt;section&gt;
+    &lt;h2&gt;Deel 2&lt;/h2&gt;
+    &lt;p&gt;Inhoud voor deel 2 komt hier.&lt;/p&gt;
+    &lt;/section&gt;
+    &lt;section&gt;
+    &lt;h2&gt;Deel 3&lt;/h2&gt;
+    &lt;p&gt;Inhoud voor deel 3 komt hier.&lt;/p&gt;
+    &lt;/section&gt;
+    &lt;/main&gt;
+    &lt;footer&gt;
+    &lt;p&gt;Website Footer&lt;/p&gt;
+    &lt;/footer&gt;
+    &lt;/body&gt;
+    </code>
+  </pre>
+</section>
+<section>
+    <h3>Stap 2 zou dan zijn om</h3>
+    <p Styling toe tevoegen aan je pagina om de inhoud gemakkelijker leesbaar te maken en om ervoor te
+       zorgen dat de
+       website toegankelijk is voor alle gebruikers. Dit kunnen eenvoudige stijlen zijn zoals een standaard
+       lettertype,
+       kleur en achtergrondkleur.></p>
+
+
+    <h3>Stap 3 zou dan zijn om</h3>
+
+    <p>Css-Media queries toe te passen aan je pagina om stijlen toe te voegen die alleen van toepassing
+        zijn op moderne
+        browsers. Dit betekent dat gebruikers met oudere browsers nog steeds toegang hebben tot de inhoud
+        van de website,
+        maar dat gebruikers met nieuwere browsers een verbeterde gebruikerservaring krijgen.
+
+        En de laatste zou moeten zijn dat de JavaScript toe word gevoegd voor extra functionaliteit
+        dus de JavaScript alleen toevoegen om extra functionaliteiten toe te voegen aan de website voor
+        gebruikers die een
+        browser hebben die
+        JavaScript ondersteunen. Zorg ervoor dat de website nog steeds werkt voor gebruikers die geen
+        JavaScript hebben,
+        zodat de inhoud van de website nog steeds toegankelijk is.</p>
+    <br>
+    <pre>
+        document.addEventListener('DOMContentLoaded', function() {
+        var header = document.querySelector('header');
+        header.addEventListener('click', function() {
+        alert('Je hebt op de header geklikt!');
+        });
+        });
+    </pre>
+</section>
+<section>
+    <h3>Dus waarom is dit onderwerp ook relevant voor progressive enhancement?</h3>
+
+
+    <p> Het gebruik van section-elementen bijvoorbeeld helpt bij het organiseren van de inhoud van de website in
+        logische
+        secties, zodat
+        het voor alle gebruikers gemakkelijk is om de inhoud te begrijpen en te navigeren. Het biedt ook een
+        duidelijke
+        structuur voor de website, waardoor het gemakkelijker wordt om de inhoud te verbeteren en nieuwe
+        functionaliteit toe
+        te voegen in de toekomst.</p>
+
+
+    <p><q>Samengevat betekent progressive enhancement dat je begint met een basisversie van de website die werkt voor
+        alle
+        gebruikers, ongeacht hun apparaat of browser, en dat je de website verbetert voor gebruikers met een modernere
+        browser of apparaat. Door het gebruik van semantische HTML, kun je de website betekenisvol maken voor alle
+        gebruikers, terwijl je de mogelijkheid hebt om de website te verbeteren voor gebruikers met een modernere
+        browser of
+        apparaat.</q></p>
+</section>
+</body>
+</html>
