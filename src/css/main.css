@@ -35,7 +35,8 @@ nav {
     /* justify-content: center; */
     justify-items: center;
     margin-inline: auto;
-    max-width: 1100px;
+    max-width: 1300px;
+    overflow: hidden;
 }
 
 nav a {
@@ -52,6 +53,7 @@ nav ul {
     gap: 1em;
     padding: 0;
     margin: 0;
+    overflow: hidden;
 }
 
 nav ul li {
@@ -61,6 +63,7 @@ nav ul li {
     background-color: transparent;
     text-align: center;
     border: 2px solid #000;
+    overflow: hidden;
     
 }
 
